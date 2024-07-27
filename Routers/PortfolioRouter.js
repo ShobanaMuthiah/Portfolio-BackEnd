@@ -6,6 +6,6 @@ const router = express.Router();
 
 
 router.post('/comments', comments);
-router.get('/comments',comments)
+router.get('/comments/get',comments);
 
 export default router;
